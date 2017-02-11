@@ -12,4 +12,3 @@ RUN set -ex && \
     chmod 755 /usr/bin/dumb-init
 
 ENTRYPOINT ["/usr/bin/dumb-init", "--"]
-
